@@ -13,6 +13,8 @@ def threadControl():
 controlThread = Thread(target=threadControl)
 controlThread.daemon = True
 controlThread.start()
+
+
 print("Main 1 second")
 sleep(5)
 print("Main 5 second")
